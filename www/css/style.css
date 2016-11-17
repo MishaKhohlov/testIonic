@@ -1,0 +1,106 @@
+a {
+  color: white;
+}
+
+.view {
+  color: white;
+  padding-top: 43px;
+  box-sizing: border-box;
+  background: url('../img/background.jpg') 0 0;
+  background-size: cover;
+}
+
+.navbar {
+  color: white;
+  background: none;
+}
+
+.button, .title {
+  color: white;
+}
+
+.platform-android .bar .title {
+  text-align: center;
+}
+
+.title-logo {
+  max-width: 70%;
+  margin: 0px auto 0 auto;
+  display: flex;
+}
+
+.wrapper-section {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section-item {
+  width: 33%;
+  padding: 10px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255, 0.6);
+  border-right: 1px solid rgba(255,255,255, 0.6);
+  text-decoration: inherit;
+}
+
+.section-item:nth-child(3n) {
+  border-right: none ;
+}
+.section-item:nth-child(7), .section-item:nth-child(8), .section-item:nth-child(9) {
+  border-bottom: none ;
+}
+
+.my-icon {
+  font-size: 40px;
+}
+
+.slide-in-up {
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+
+button:hover {
+  color: #0a9dc7;
+}
+
+.menu-list .list {
+  margin-top: 30px;
+}
+
+.menu-item {
+ text-align: center;
+  background: none;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+}
+
+.menu-item:hover {
+  background: #2bb04a;
+}
+
+.my-title {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.my-spinner {
+  margin: 0 auto;
+  overflow: hidden;
+}
+.spinner svg {
+  width: 100px;
+  height: 60px;
+  stroke: #ff7e2a;
+  margin: 20px auto 20px auto;
+  display: block;
+}
+
+.section-title {
+  margin: 20px auto 20px auto;
+  display: block;
+  text-align: center;
+}

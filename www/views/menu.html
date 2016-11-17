@@ -1,0 +1,12 @@
+<ion-modal-view class="view">
+  <ion-header-bar class="bar bar-header navbar">
+    <button class="button button-icon ion-close" ng-click="app.modal.hide()"></button>
+    <h1 class="title">Menu</h1>
+    <button class="button button-icon ion-home" ng-click="app.modal.hide()"></button>
+  </ion-header-bar>
+  <ion-content class="padding">
+    <ion-list class="menu-list">
+      <ion-item class="menu-item" ng-repeat="item in app.menu track by $index">{{item}}</ion-item>
+    </ion-list>
+  </ion-content>
+</ion-modal-view>

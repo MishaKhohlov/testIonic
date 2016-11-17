@@ -1,0 +1,11 @@
+<ion-view class="view">
+  <ion-content>
+    <img class="title-logo" src="./img/logo.png">
+    <div class="wrapper-section">
+      <a href="#/section" class="section-item" ng-repeat="item in app.section">
+        <div class="my-icon ion-{{item.icon}}"></div>
+        <h4 class="my-title title">{{item.title}}</h4>
+      </a>
+    </div>
+  </ion-content>
+</ion-view>
